@@ -1,0 +1,9 @@
+<h1>My Tasks</h1>
+
+<ul>
+  <%  @tasks.each do |task| %>
+    <li><strong><%= link_to task.title, task_path(task) %></strong> <%= task.details %>
+    [<%= link_to "Delete", task_path(task), method: :delete %>]
+    </li>
+  <% end %>
+</ul>
