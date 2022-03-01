@@ -1,5 +1,6 @@
 <%= simple_form_for(task) do |t| %>
   <%= t.input :title %>
   <%= t.input :details %>
+  <%= t.input :completed if task.persisted? %>
   <%= t.submit %>
 <% end %>
