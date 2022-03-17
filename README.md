@@ -1,9 +1,11 @@
 # Rails App using ACTIVE RECORD and MVC pattern
 ## MAIN FEATURES
-> People can create restaurants(name, address) and other users can review them (rating, and review)
+> People can create, and update a list ok tasks.
+> People can mark a task as completed, unncompleted, change its content or delete the task
 
-![image](https://user-images.githubusercontent.com/72522628/158514079-9f566523-d719-4149-a03b-6e58f7dc174d.png)
-![image](https://user-images.githubusercontent.com/72522628/158514047-c1529922-4424-4512-b371-fda794ee754f.png)
+![image](https://user-images.githubusercontent.com/72522628/158725267-f0bf8ec6-1e30-46ea-b7c1-7350f02a5431.png)
+![image](https://user-images.githubusercontent.com/72522628/158725293-8fe850bd-9a75-437e-b310-c9ac9e1aacbc.png)
+![image](https://user-images.githubusercontent.com/72522628/158725333-bf33579b-0477-4e48-a892-65c4f7b936d4.png)
 
 ### CHECK NEXT STEPS TO DEPLOY
 
@@ -15,8 +17,8 @@
 ## Setup
 
 ```shell
- git clone git@github.com:daniel-enqz/rails-yepl-mvp.git
- cd rails-yepl-mvp
+ git clone git@github.com:daniel-enqz/rails-task-manager.git
+ cd rails-task-manager
  rails db:create db:migrate db:seed:replant
  bundle install
  yarn install
