@@ -1,4 +1,4 @@
-# Two-model Rails app with a restaurant and anonymus reviews 
+# Rails App using ACTIVE RECORD and MVC pattern
 ## MAIN FEATURES
 > People can create restaurants(name, address) and other users can review them (rating, and review)
 
